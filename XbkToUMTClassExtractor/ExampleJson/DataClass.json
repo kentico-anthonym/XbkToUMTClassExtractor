@@ -1,0 +1,4081 @@
+[
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Culture",
+    "ClassName": "cms.culture",
+    "ClassTableName": "CMS_Culture",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7368876",
+    "ClassGUID": "21ea0bc0-a9b7-4888-8255-9bd5255e2ef0",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Role",
+    "ClassName": "cms.Role",
+    "ClassTableName": "CMS_Role",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7768683",
+    "ClassGUID": "1dba5a45-954e-442c-8a00-41927c501f2b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "User",
+    "ClassName": "cms.user",
+    "ClassTableName": "CMS_User",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7807775",
+    "ClassGUID": "2e02c378-0f3d-45de-9b2d-b8cf2bd87b55",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "User role",
+    "ClassName": "cms.UserRole",
+    "ClassTableName": "CMS_UserRole",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7840639",
+    "ClassGUID": "7664a5c5-128c-4546-a7f9-c6d3e694c28a",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Resource",
+    "ClassName": "cms.resource",
+    "ClassTableName": "CMS_Resource",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7859896",
+    "ClassGUID": "93746c62-21e4-4fda-bcbd-61c5fcee9945",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Event log",
+    "ClassName": "CMS.EventLog",
+    "ClassTableName": "CMS_EventLog",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7882976",
+    "ClassGUID": "e497827b-e411-4975-9277-b73235b21f87",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Class",
+    "ClassName": "cms.class",
+    "ClassTableName": "CMS_Class",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.790522",
+    "ClassGUID": "d7e91104-201b-4b11-9550-e93ad9a4d81f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Query",
+    "ClassName": "cms.query",
+    "ClassTableName": "CMS_Query",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7920397",
+    "ClassGUID": "821c115d-0b5b-4d8a-b5f9-7d2e0f97e0bd",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Workflow",
+    "ClassName": "cms.workflow",
+    "ClassTableName": "CMS_Workflow",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7963188",
+    "ClassGUID": "a80047fb-e386-48ea-b433-bcdd92d131e4",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Workflow step",
+    "ClassName": "cms.workflowstep",
+    "ClassTableName": "CMS_WorkflowStep",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.7985426",
+    "ClassGUID": "6fc9d49b-83c2-4a7e-9a33-037883a76a26",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Form",
+    "ClassName": "cms.form",
+    "ClassTableName": "CMS_Form",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8001984",
+    "ClassGUID": "be2a91e3-b191-4a74-8888-a212b9a88c6d",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Scheduled task configuration",
+    "ClassName": "cms.ScheduledTaskConfiguration",
+    "ClassTableName": "CMS_ScheduledTaskConfiguration",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8025598",
+    "ClassGUID": "57b78754-4137-4220-b736-8c16cbbe6c87",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web farm server",
+    "ClassName": "cms.WebFarmServer",
+    "ClassTableName": "CMS_WebFarmServer",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8037435",
+    "ClassGUID": "bb652b81-0792-4191-9d32-e7b8f2bd6e4f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web farm task",
+    "ClassName": "cms.WebFarmTask",
+    "ClassTableName": "CMS_WebFarmTask",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8052958",
+    "ClassGUID": "44576ef8-a9b8-44e6-ba9d-4643f7de17cf",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Country",
+    "ClassName": "cms.country",
+    "ClassTableName": "CMS_Country",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8073684",
+    "ClassGUID": "7e651b6d-e59d-4d72-93c3-2d3adb2a6c6b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "State",
+    "ClassName": "cms.state",
+    "ClassTableName": "CMS_State",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8105095",
+    "ClassGUID": "6d8f4d1f-3ac1-4388-94d6-14d68e972f5d",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Settings key",
+    "ClassName": "CMS.SettingsKey",
+    "ClassTableName": "CMS_SettingsKey",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8124414",
+    "ClassGUID": "ec796166-5adf-43fa-9508-c9791db1b6dd",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "FormRole",
+    "ClassName": "cms.FormRole",
+    "ClassTableName": "CMS_FormRole",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8140756",
+    "ClassGUID": "c6fdeded-624d-46a0-99a7-910cd0eba763",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Settings category",
+    "ClassName": "cms.settingscategory",
+    "ClassTableName": "CMS_SettingsCategory",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8156733",
+    "ClassGUID": "e85e89d4-b387-48bc-b414-63ebbd2f6b40",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Resource string",
+    "ClassName": "CMS.ResourceString",
+    "ClassTableName": "CMS_ResourceString",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8179683",
+    "ClassGUID": "77097669-a269-4702-af21-8896af411555",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Resource translation",
+    "ClassName": "CMS.ResourceTranslation",
+    "ClassTableName": "CMS_ResourceTranslation",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.82023",
+    "ClassGUID": "38ab8c16-f476-4e9c-adbf-3957853aa8bf",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Alternative forms",
+    "ClassName": "cms.AlternativeForm",
+    "ClassTableName": "CMS_AlternativeForm",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8229959",
+    "ClassGUID": "7d7cbe11-e101-469f-a4a3-ee452f3982df",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email attachment",
+    "ClassName": "cms.EmailAttachment",
+    "ClassTableName": "CMS_EmailAttachment",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8245956",
+    "ClassGUID": "3a6a10ed-8426-4240-9f0f-ae054f612c61",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email",
+    "ClassName": "cms.email",
+    "ClassTableName": "CMS_Email",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.826747",
+    "ClassGUID": "488f275e-7311-4136-a127-4c970cd4060f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Attachment for email",
+    "ClassName": "cms.attachmentforemail",
+    "ClassTableName": "CMS_AttachmentForEmail",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8291196",
+    "ClassGUID": "9a4da0dc-ef38-4485-9d15-65f0c4e629d8",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Media library",
+    "ClassName": "media.library",
+    "ClassTableName": "Media_Library",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8317792",
+    "ClassGUID": "dead7673-d566-4f83-87e3-e9a235b70e4f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Media file",
+    "ClassName": "media.file",
+    "ClassTableName": "Media_File",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8352281",
+    "ClassGUID": "d511179e-7fd5-42ee-8b51-048f58e45f6f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Temporary file",
+    "ClassName": "Temp.File",
+    "ClassTableName": "Temp_File",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8369901",
+    "ClassGUID": "0b6b1848-09a8-4564-9853-6d11b2bf621b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Account",
+    "ClassName": "OM.Account",
+    "ClassTableName": "OM_Account",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8391549",
+    "ClassGUID": "8e13fd06-a0fa-47d9-b335-17ddffb0d0a7",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Account status",
+    "ClassName": "OM.AccountStatus",
+    "ClassTableName": "OM_AccountStatus",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8419244",
+    "ClassGUID": "39c48783-a43a-4ac4-b68d-3097fa876843",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Contact",
+    "ClassName": "OM.Contact",
+    "ClassTableName": "OM_Contact",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8447136",
+    "ClassGUID": "a7ca5324-19a5-4104-9579-ef54c7fca5fa",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Contact status",
+    "ClassName": "OM.ContactStatus",
+    "ClassTableName": "OM_ContactStatus",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8463249",
+    "ClassGUID": "8c6ea654-3e7f-4838-89b4-6633ab851b8c",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Contact role",
+    "ClassName": "OM.ContactRole",
+    "ClassTableName": "OM_ContactRole",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8490083",
+    "ClassGUID": "6ef5e1b9-08d9-4dfa-a748-e483afe72621",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - AccountContact",
+    "ClassName": "OM.AccountContact",
+    "ClassTableName": "OM_AccountContact",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8502163",
+    "ClassGUID": "6f8e05a4-3bc3-4d45-a4ea-905664c3a84e",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Contact group",
+    "ClassName": "OM.ContactGroup",
+    "ClassTableName": "OM_ContactGroup",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8532824",
+    "ClassGUID": "97f104ff-d87a-48b8-a5db-216786f9344e",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Contact group member",
+    "ClassName": "OM.ContactGroupMember",
+    "ClassTableName": "OM_ContactGroupMember",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8545505",
+    "ClassGUID": "00327990-a464-416f-bc40-982e4f50b75b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Activities - Activity",
+    "ClassName": "OM.Activity",
+    "ClassTableName": "OM_Activity",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.857014",
+    "ClassGUID": "77fa65bf-2a57-42a1-a738-c29d6f0f444a",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Activities - Activity type",
+    "ClassName": "OM.ActivityType",
+    "ClassTableName": "OM_ActivityType",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8592022",
+    "ClassGUID": "e1c6d908-d1f7-4495-a06b-c070ead822a9",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Workflow transition",
+    "ClassName": "CMS.WorkflowTransition",
+    "ClassTableName": "CMS_WorkflowTransition",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8610568",
+    "ClassGUID": "d83351f9-37ee-4708-962c-97d217f79f91",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Macro rule",
+    "ClassName": "CMS.MacroRule",
+    "ClassTableName": "CMS_MacroRule",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8632695",
+    "ClassGUID": "c59a88e0-c6e5-4537-b35d-0cc3d2b294c9",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Workflow action",
+    "ClassName": "cms.workflowaction",
+    "ClassTableName": "CMS_WorkflowAction",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8654468",
+    "ClassGUID": "bc666071-3ba9-44ea-8470-1b75a9fe9f8a",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Automation history",
+    "ClassName": "CMS.AutomationHistory",
+    "ClassTableName": "CMS_AutomationHistory",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.869164",
+    "ClassGUID": "2c6c5ab8-2a0e-41b1-b4b4-416f1e9106ec",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Object workflow trigger",
+    "ClassName": "CMS.ObjectWorkflowTrigger",
+    "ClassTableName": "CMS_ObjectWorkflowTrigger",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8722414",
+    "ClassGUID": "6c8003f7-4bc2-429e-88af-65c2b69db47c",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Automation state",
+    "ClassName": "CMS.AutomationState",
+    "ClassTableName": "CMS_AutomationState",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8749272",
+    "ClassGUID": "a6163281-d51d-41bb-b76a-638035b95e05",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web farm server task",
+    "ClassName": "cms.webfarmservertask",
+    "ClassTableName": "CMS_WebFarmServerTask",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.876546",
+    "ClassGUID": "b9c53053-17e2-4f1c-80a0-59a2f57ad8d4",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web farm server monitoring data",
+    "ClassName": "CMS.WebFarmServerMonitoring",
+    "ClassTableName": "CMS_WebFarmServerMonitoring",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8794873",
+    "ClassGUID": "04233cd9-13df-459d-9fc6-7488c198e396",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "File metadata",
+    "ClassName": "CI.FileMetadata",
+    "ClassTableName": "CI_FileMetadata",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8814367",
+    "ClassGUID": "cdb24e3e-7c3f-4e47-b1c2-32f128d6d451",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web farm server log",
+    "ClassName": "CMS.WebFarmServerLog",
+    "ClassTableName": "CMS_WebFarmServerLog",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.884535",
+    "ClassGUID": "d49b6ae2-daa9-427c-bf25-fd4944af3882",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Activities - Activity recalculation queue",
+    "ClassName": "OM.ActivityRecalculationQueue",
+    "ClassTableName": "OM_ActivityRecalculationQueue",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8855019",
+    "ClassGUID": "b1d7ae97-3796-46c3-b1a1-fa30dcb2e87b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "ExternalLogin",
+    "ClassName": "CMS.ExternalLogin",
+    "ClassTableName": "CMS_ExternalLogin",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8883973",
+    "ClassGUID": "fc44c5a6-4ac1-4935-a617-1c47d5ee896e",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Contact change recalculation queue",
+    "ClassName": "OM.ContactChangeRecalculationQueue",
+    "ClassTableName": "OM_ContactChangeRecalculationQueue",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8896197",
+    "ClassGUID": "f1c75287-3b7e-4a98-885d-67e90b85fa78",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact management - Visitor to Contact",
+    "ClassName": "OM.VisitorToContact",
+    "ClassTableName": "OM_VisitorToContact",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8912219",
+    "ClassGUID": "cbe2b4c4-7379-429a-93ac-c80d7d18cc20",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Macro identity",
+    "ClassName": "CMS.MacroIdentity",
+    "ClassTableName": "CMS_MacroIdentity",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8931422",
+    "ClassGUID": "714ceadc-9a49-4934-8d3b-12cfaba9538f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "User macro identity",
+    "ClassName": "CMS.UserMacroIdentity",
+    "ClassTableName": "CMS_UserMacroIdentity",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8948667",
+    "ClassGUID": "e881ed7b-e7e7-4051-933c-77feb54e9a79",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Consent",
+    "ClassName": "CMS.Consent",
+    "ClassTableName": "CMS_Consent",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8968369",
+    "ClassGUID": "1de57768-d0cb-4e03-b3d9-7dd95c26c193",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Consent agreement",
+    "ClassName": "CMS.ConsentAgreement",
+    "ClassTableName": "CMS_ConsentAgreement",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.8986003",
+    "ClassGUID": "76035ba1-12b3-4bea-96d2-fdbf5b24ae63",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Consent archive",
+    "ClassName": "CMS.ConsentArchive",
+    "ClassTableName": "CMS_ConsentArchive",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9005941",
+    "ClassGUID": "04fb1a53-1f25-42bb-9608-a4bb23ca657d",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Temporary visual builder widgets",
+    "ClassName": "Temp.VisualBuilderWidgets",
+    "ClassTableName": "Temp_VisualBuilderWidgets",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9021858",
+    "ClassGUID": "8200dd77-16e8-4aec-ab65-db9595622464",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Page template configuration",
+    "ClassName": "CMS.PageTemplateConfiguration",
+    "ClassTableName": "CMS_PageTemplateConfiguration",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9052513",
+    "ClassGUID": "f3f579ea-6ea3-4ba8-a0ac-ccc9d0ba8bc4",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Automation template",
+    "ClassName": "CMS.AutomationTemplate",
+    "ClassTableName": "CMS_AutomationTemplate",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9071009",
+    "ClassGUID": "28286976-1784-42f4-b2e0-877d9288f7e8",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Form featured field",
+    "ClassName": "CMS.FormFeaturedField",
+    "ClassTableName": "CMS_FormFeaturedField",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9089448",
+    "ClassGUID": "38815a72-92d5-4efe-bc35-563d034a671b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Macro rule category",
+    "ClassName": "CMS.MacroRuleCategory",
+    "ClassTableName": "CMS_MacroRuleCategory",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9104949",
+    "ClassGUID": "9a2ba321-ed97-48b2-b5ee-82be433d9afa",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "MacroRuleMacroRuleCategory",
+    "ClassName": "CMS.MacroRuleMacroRuleCategory",
+    "ClassTableName": "CMS_MacroRuleMacroRuleCategory",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9132152",
+    "ClassGUID": "87a9ad39-b36e-4eaf-b4a9-c3b86adbae05",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Tracked website",
+    "ClassName": "OM.TrackedWebsite",
+    "ClassTableName": "OM_TrackedWebsite",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9151375",
+    "ClassGUID": "ffb2e77a-0462-48c5-9e16-564b119be413",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email",
+    "ClassName": "EmailLibrary.EmailConfiguration",
+    "ClassTableName": "EmailLibrary_EmailConfiguration",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.917884",
+    "ClassGUID": "5ff87120-370d-4251-9ba9-3fe9ff1d9926",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email template",
+    "ClassName": "EmailLibrary.EmailTemplate",
+    "ClassTableName": "EmailLibrary_EmailTemplate",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9205191",
+    "ClassGUID": "3872be3f-2a60-4e3f-839d-3a8b762238da",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Application Permission",
+    "ClassName": "CMS.ApplicationPermission",
+    "ClassTableName": "CMS_ApplicationPermission",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9223459",
+    "ClassGUID": "da4ce06f-8c1d-49ef-ad6c-c7e240c8f69c",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Channel",
+    "ClassName": "CMS.Channel",
+    "ClassTableName": "CMS_Channel",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9241434",
+    "ClassGUID": "4c9def5a-eaa9-4193-94e6-5fdcae2a4bd9",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content item",
+    "ClassName": "CMS.ContentItem",
+    "ClassTableName": "CMS_ContentItem",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9260859",
+    "ClassGUID": "5cf455bb-64ad-420f-b605-4ea21fe4e045",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content item common data",
+    "ClassName": "CMS.ContentItemCommonData",
+    "ClassTableName": "CMS_ContentItemCommonData",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9310206",
+    "ClassGUID": "a6581fb3-892a-45b4-981a-012ce4b50b43",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "SEOFieldsTitle",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "60b37ef3-d909-45d4-b5d1-fd27d9258396",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "SEO Title",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "kxp_schema_identifier": "7c7b596d-5b91-40a5-8ded-f2e4757d8e66"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "SEOFieldsDescription",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "ec3e6220-9a88-47be-8dfc-d8ebceaabe74",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "SEO description",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "kxp_schema_identifier": "7c7b596d-5b91-40a5-8ded-f2e4757d8e66"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "SEOFieldsAllowSearchIndexing",
+        "ColumnSize": 0,
+        "ColumnType": "boolean",
+        "Enabled": true,
+        "Guid": "af054025-144e-4b75-b102-dfa908f9b382",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Allow search indexing",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": "When enabled, adds the page to the sitemap. When disabled, removes the page from the sitemap and disables search engine indexing for the page.",
+          "validationerrormessage": null,
+          "defaultvalue": "True",
+          "kxp_schema_identifier": "7c7b596d-5b91-40a5-8ded-f2e4757d8e66"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.Checkbox"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ProductFieldsName",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "bf0f2c4d-f21e-4dec-a059-081a0e88d21b",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Product name",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "kxp_schema_identifier": "fe13f703-8744-4947-8c01-5f78bbd5039d"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ProductFieldsDescription",
+        "ColumnSize": 0,
+        "ColumnType": "richtexthtml",
+        "Enabled": true,
+        "Guid": "a99007e1-b5d9-4866-af1e-655d48fec350",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Product description",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "kxp_schema_identifier": "fe13f703-8744-4947-8c01-5f78bbd5039d"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.RichTextEditor"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ProductFieldsShortDescription",
+        "ColumnSize": 450,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "f86bffee-b72e-488b-97ec-c2649066f2fc",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Product short description",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "kxp_schema_identifier": "fe13f703-8744-4947-8c01-5f78bbd5039d"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ProductFieldsImage",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "af37d29a-2fc8-4ead-82ef-d5ec6998f910",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Product image",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "kxp_schema_identifier": "fe13f703-8744-4947-8c01-5f78bbd5039d"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content item language metadata",
+    "ClassName": "CMS.ContentItemLanguageMetadata",
+    "ClassTableName": "CMS_ContentItemLanguageMetadata",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9351669",
+    "ClassGUID": "b80834cb-b865-483f-87d3-e1725a66bd37",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content item reference",
+    "ClassName": "CMS.ContentItemReference",
+    "ClassTableName": "CMS_ContentItemReference",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.937786",
+    "ClassGUID": "38f54a8a-ba27-413d-aba5-18f2ca55f0b8",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content language",
+    "ClassName": "CMS.ContentLanguage",
+    "ClassTableName": "CMS_ContentLanguage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9396502",
+    "ClassGUID": "35adb641-9c37-4b73-bbe8-574b8c0d2301",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content type channel",
+    "ClassName": "CMS.ContentTypeChannel",
+    "ClassTableName": "CMS_ContentTypeChannel",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:26.9411779",
+    "ClassGUID": "84719277-d9dc-451a-af43-afc8abad6928",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page former url path",
+    "ClassName": "CMS.WebPageFormerUrlPath",
+    "ClassTableName": "CMS_WebPageFormerUrlPath",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.177988",
+    "ClassGUID": "27b484b0-dbce-4598-bb51-a578246996c0",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page item",
+    "ClassName": "CMS.WebPageItem",
+    "ClassTableName": "CMS_WebPageItem",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.1832585",
+    "ClassGUID": "9715d760-3c82-4f93-9597-4145d6494acc",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page url path",
+    "ClassName": "CMS.WebPageUrlPath",
+    "ClassTableName": "CMS_WebPageUrlPath",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.2847074",
+    "ClassGUID": "68de6e79-21cb-493e-98fb-b3d44d6e8cac",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Website CAPTCHA settings",
+    "ClassName": "CMS.WebsiteCaptchaSettings",
+    "ClassTableName": "CMS_WebsiteCaptchaSettings",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.2890175",
+    "ClassGUID": "df2ea10b-3c1b-45eb-8082-44b28753f3bc",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Website channel",
+    "ClassName": "CMS.WebsiteChannel",
+    "ClassTableName": "CMS_WebsiteChannel",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.2925418",
+    "ClassGUID": "2f6bb2c4-a3d6-40a1-a43a-1142c0d4c84b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email bounce",
+    "ClassName": "EmailLibrary.EmailBounce",
+    "ClassTableName": "EmailLibrary_EmailBounce",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.295761",
+    "ClassGUID": "2e9a20d6-0432-4c51-9048-07961a05a604",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email channel",
+    "ClassName": "EmailLibrary.EmailChannel",
+    "ClassTableName": "EmailLibrary_EmailChannel",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.2981533",
+    "ClassGUID": "c5a7e4ad-8ea5-46b7-b577-6e070a797b0f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email channel sender",
+    "ClassName": "EmailLibrary.EmailChannelSender",
+    "ClassTableName": "EmailLibrary_EmailChannelSender",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.300013",
+    "ClassGUID": "50f47357-c564-4644-a8a7-cba132a18506",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email link",
+    "ClassName": "EmailLibrary.EmailLink",
+    "ClassTableName": "EmailLibrary_EmailLink",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3021459",
+    "ClassGUID": "a2c04308-1d67-43f5-943c-687722ca7f7c",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email marketing recipient",
+    "ClassName": "EmailLibrary.EmailMarketingRecipient",
+    "ClassTableName": "EmailLibrary_EmailMarketingRecipient",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.303553",
+    "ClassGUID": "5471847a-2d53-4e2c-8490-b7502078d382",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email statistics",
+    "ClassName": "EmailLibrary.EmailStatistics",
+    "ClassTableName": "EmailLibrary_EmailStatistics",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.305256",
+    "ClassGUID": "3a8c14a7-4881-437e-b094-267b91c20bb8",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email statistics hits",
+    "ClassName": "EmailLibrary.EmailStatisticsHits",
+    "ClassTableName": "EmailLibrary_EmailStatisticsHits",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3077805",
+    "ClassGUID": "9d1dcca4-be57-4dae-bd8e-e25c00475fd9",
+    "ClassHasUnmanagedDbSchema": true,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email subscription confirmation",
+    "ClassName": "EmailLibrary.EmailSubscriptionConfirmation",
+    "ClassTableName": "EmailLibrary_EmailSubscriptionConfirmation",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3104004",
+    "ClassGUID": "a6fbd04a-c5ce-4697-bbe9-7a02abd75738",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Allowed email template",
+    "ClassName": "EmailLibrary.EmailTemplateContentType",
+    "ClassTableName": "EmailLibrary_EmailTemplateContentType",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3128958",
+    "ClassGUID": "306c5917-4204-4f7d-a6ee-3f611964a29b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Subscription Configuration",
+    "ClassName": "EmailLibrary.RecipientListSettings",
+    "ClassTableName": "EmailLibrary_RecipientListSettings",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3153435",
+    "ClassGUID": "c607cdb5-9dbe-496d-bc81-22de395e3282",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email send configuration",
+    "ClassName": "EmailLibrary.SendConfiguration",
+    "ClassTableName": "EmailLibrary_SendConfiguration",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3168762",
+    "ClassGUID": "f6738f52-ec96-47c0-a5fd-9a771f770f2d",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Member",
+    "ClassName": "CMS.Member",
+    "ClassTableName": "CMS_Member",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3186944",
+    "ClassGUID": "07c5d145-7cbc-4c75-9a96-6d4948bf6c73",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "MemberExternalLogin",
+    "ClassName": "CMS.MemberExternalLogin",
+    "ClassTableName": "CMS_MemberExternalLogin",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3201667",
+    "ClassGUID": "6ce2615a-40dc-4e15-884b-6252da6c3f36",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Automation step statistics",
+    "ClassName": "CMS.AutomationStepStatistics",
+    "ClassTableName": "CMS_AutomationStepStatistics",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.321557",
+    "ClassGUID": "a5f1dd0a-b8d5-4171-8aa4-c123434e9d7d",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content folder",
+    "ClassName": "CMS.ContentFolder",
+    "ClassTableName": "CMS_ContentFolder",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3235922",
+    "ClassGUID": "5fcf4cc3-9f30-4a4a-9838-5dbd85fbf7ea",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content item tag",
+    "ClassName": "CMS.ContentItemTag",
+    "ClassTableName": "CMS_ContentItemTag",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3251306",
+    "ClassGUID": "1294fd49-c7de-47b0-bae9-e5c68baab56d",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content workflow",
+    "ClassName": "CMS.ContentWorkflow",
+    "ClassTableName": "CMS_ContentWorkflow",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3269056",
+    "ClassGUID": "226c0c62-ddd7-4a86-84e6-310e828ed530",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content type workflow",
+    "ClassName": "CMS.ContentWorkflowContentType",
+    "ClassTableName": "CMS_ContentWorkflowContentType",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3283329",
+    "ClassGUID": "71e8743a-0bcf-4f89-8868-8516f35917ce",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content workflow role",
+    "ClassName": "CMS.ContentWorkflowRole",
+    "ClassTableName": "CMS_ContentWorkflowRole",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3297458",
+    "ClassGUID": "f4c1b545-b100-406e-be46-0ab0494d4007",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content workflow step",
+    "ClassName": "CMS.ContentWorkflowStep",
+    "ClassTableName": "CMS_ContentWorkflowStep",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3316071",
+    "ClassGUID": "fe60b6f7-0032-4c4e-a25a-f9e43ddd791e",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Content workflow step role",
+    "ClassName": "CMS.ContentWorkflowStepRole",
+    "ClassTableName": "CMS_ContentWorkflowStepRole",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3333648",
+    "ClassGUID": "8a38d4fe-75b1-4960-a091-6d67c260d500",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Headless channel",
+    "ClassName": "CMS.HeadlessChannel",
+    "ClassTableName": "CMS_HeadlessChannel",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3352513",
+    "ClassGUID": "e81cea29-6c36-4902-aca6-f7ef2ada0de2",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Headless item",
+    "ClassName": "CMS.HeadlessItem",
+    "ClassTableName": "CMS_HeadlessItem",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3370854",
+    "ClassGUID": "ceeed7cd-8751-40eb-b799-73401e46b40b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Headless token",
+    "ClassName": "CMS.HeadlessToken",
+    "ClassTableName": "CMS_HeadlessToken",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3392055",
+    "ClassGUID": "8b80473b-018d-460b-858f-e0cfcc89007d",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Smart folder",
+    "ClassName": "CMS.SmartFolder",
+    "ClassTableName": "CMS_SmartFolder",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3414417",
+    "ClassGUID": "d245d59d-b602-47bd-9c21-f640a191bc37",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Tag",
+    "ClassName": "CMS.Tag",
+    "ClassTableName": "CMS_Tag",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.34509",
+    "ClassGUID": "2fa0e7c3-f936-472f-86d9-566eec1206b9",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Taxonomy",
+    "ClassName": "CMS.Taxonomy",
+    "ClassTableName": "CMS_Taxonomy",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3471573",
+    "ClassGUID": "d917726c-d17d-4c1b-a314-6176c1ecd407",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page ACL",
+    "ClassName": "CMS.WebPageAcl",
+    "ClassTableName": "CMS_WebPageAcl",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3490254",
+    "ClassGUID": "612ee8eb-7806-4ae4-bcc4-3d838b3c609b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page ACL mapping",
+    "ClassName": "CMS.WebPageAclMapping",
+    "ClassTableName": "CMS_WebPageAclMapping",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.350928",
+    "ClassGUID": "38699edd-4a01-426d-9060-129f599104b7",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page ACL role",
+    "ClassName": "CMS.WebPageAclRole",
+    "ClassTableName": "CMS_WebPageAclRole",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3530235",
+    "ClassGUID": "fb936ccd-715e-4fa9-95b1-8d1b6f0ad6e0",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page ACL role permission",
+    "ClassName": "CMS.WebPageAclRolePermission",
+    "ClassTableName": "CMS_WebPageAclRolePermission",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.3562761",
+    "ClassGUID": "6ec7da04-19aa-4581-a5b9-754cb1d2593a",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Notification email template",
+    "ClassName": "CMS.NotificationEmailTemplate",
+    "ClassTableName": "CMS_NotificationEmailTemplate",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.5879186",
+    "ClassGUID": "043ec04e-7e87-481b-8088-ebf66160d4d9",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Workspace",
+    "ClassName": "CMS.Workspace",
+    "ClassTableName": "CMS_Workspace",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.8101781",
+    "ClassGUID": "d8d2794e-e2a8-4da1-beb0-e9325baee585",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Workspace data permission",
+    "ClassName": "CMS.WorkspaceDataPermission",
+    "ClassTableName": "CMS_WorkspaceDataPermission",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.8123385",
+    "ClassGUID": "62ed1614-6e93-4218-8a7f-ada5d7ae0ac2",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Notification email",
+    "ClassName": "CMS.NotificationEmail",
+    "ClassTableName": "CMS_NotificationEmail",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.913023",
+    "ClassGUID": "804f49e5-c5ed-40f9-822b-ed833cf89f37",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "System",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Article page",
+    "ClassName": "DancingGoat.ArticlePage",
+    "ClassTableName": "DancingGoat_ArticlePage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.3469609",
+    "ClassGUID": "9b5e6c86-ebd1-4471-8f5d-dca72e39b12b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "ArticleTitle",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "68c7c94e-3d90-474e-9ac7-7d542fa09bc2",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Title",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ArticlePagePublishDate",
+        "ColumnSize": 0,
+        "ColumnType": "date",
+        "Enabled": true,
+        "Guid": "f6950735-137a-4bec-be1d-09e64de92088",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Publish date",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "explanationtext": "Enter a date: MM/DD/YYYY"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.DateInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ArticlePageTeaser",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "04b5735c-f3b6-4dba-af49-1c748e952820",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Teaser",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ArticlePageSummary",
+        "ColumnSize": 190,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "e8556390-9fce-4547-ad25-2af8aeface36",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Summary",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ArticlePageText",
+        "ColumnSize": 0,
+        "ColumnType": "richtexthtml",
+        "Enabled": true,
+        "Guid": "f6fc7302-2650-4d07-96a3-9b2c04352bd8",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Text",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.RichTextEditor"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ArticleRelatedPages",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "49eea67f-5a3a-4a0a-a4a4-42cf4e2117c0",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Related Pages",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Articles section",
+    "ClassName": "DancingGoat.ArticlesSection",
+    "ClassTableName": "DancingGoat_Page",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.3921957",
+    "ClassGUID": "d4f5b41b-4c36-4bc1-9e3f-6ae34235f559",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Banner",
+    "ClassName": "DancingGoat.Banner",
+    "ClassTableName": "DancingGoat_Banner",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.4350382",
+    "ClassGUID": "7aed617e-fcee-42fe-ac1d-74893d4fa9e0",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "BannerBackgroundImage",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "48d66ec4-23a8-4624-bd19-43df3edf4358",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Background image",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "BannerHeaderText",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "14769c90-cda4-42b1-9ab0-aab5f681eca9",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Header",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "BannerText",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "e3963186-82b6-4745-ac15-e625e65c4374",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Text",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Cafe",
+    "ClassName": "DancingGoat.Cafe",
+    "ClassTableName": "DancingGoat_Cafe",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-04-02T15:10:06.120319",
+    "ClassGUID": "2f06d20b-3357-48e6-b0f8-2ca7ef737237",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "CafeName",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "d031d074-adbf-4ab4-a4ae-8bdfd5611fb2",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Cafe Name",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "CafeIsCompanyCafe",
+        "ColumnSize": 0,
+        "ColumnType": "boolean",
+        "Enabled": true,
+        "Guid": "49d34d4c-a029-49c6-bd88-28dadca4f509",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Our cafe",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": "False"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.Checkbox"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "CafeStreet",
+        "ColumnSize": 50,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "db0a468c-b650-4d66-adff-636f09a381f3",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Street",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "CafeCity",
+        "ColumnSize": 50,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "8af53b47-d1b3-4785-8492-19f323c24eda",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "City",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "CafeCountry",
+        "ColumnSize": 100,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "c61a8539-3b61-4349-8e05-b7ff4b2950e8",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Country",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": "USA"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "CafeZipCode",
+        "ColumnSize": 15,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "f03adfab-ffd9-42cf-9016-4baad529631c",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Zip code",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "CafePhone",
+        "ColumnSize": 30,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "03df11ad-8b54-47bb-a436-5de8b83f06c5",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Phone",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "CafePhoto",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "1e4c0c62-4056-4acd-ac2e-d96ba01adff7",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Photo",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "CafeAdditionalNotes",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "632a4ab7-10d3-49c7-a465-e16b6dc453e7",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Additional notes",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "CafeCuppingOffer",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "323d44df-162d-4dfa-8dd1-76ed849375ef",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Cupping offer",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "CafePromotion",
+        "ColumnSize": 0,
+        "ColumnType": "taxonomy",
+        "Enabled": true,
+        "Guid": "fab42a26-dde5-4c5b-8b7d-2c3fb440a83a",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Cafe promotion",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TagSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "Addresses",
+        "ColumnSize": 0,
+        "ColumnType": "addresslist",
+        "Enabled": true,
+        "Guid": "68b7e668-2a6d-411a-94dc-ad5c09f15294",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Addresses",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "DancingGoat.FormComponent.AddressListDataType"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Coffee",
+    "ClassName": "DancingGoat.Coffee",
+    "ClassTableName": "DancingGoat_Coffee",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.5149314",
+    "ClassGUID": "7f74020d-0a9e-46fd-bfcc-50b893e94452",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "CoffeeProcessing",
+        "ColumnSize": 0,
+        "ColumnType": "taxonomy",
+        "Enabled": true,
+        "Guid": "ef85deb1-52f3-4850-8e2d-91265465e31c",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Coffee Processing",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TagSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "CoffeeTastes",
+        "ColumnSize": 0,
+        "ColumnType": "taxonomy",
+        "Enabled": true,
+        "Guid": "7df4c37c-26d3-42f1-9a59-462f38d81abb",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Coffee Tastes",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TagSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Coffee page",
+    "ClassName": "DancingGoat.CoffeePage",
+    "ClassTableName": "DancingGoat_CoffeePage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.5535113",
+    "ClassGUID": "b6830451-87c5-432c-afd3-013d9362abe4",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "RelatedItem",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "e9a5ee51-f80e-4005-8ecb-a9ab1d4a14e2",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Related Item",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Confirmation page",
+    "ClassName": "DancingGoat.ConfirmationPage",
+    "ClassTableName": "DancingGoat_ConfirmationPage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.5954231",
+    "ClassGUID": "99f9eb0a-8475-49cd-bbe6-cb485f802cce",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "ConfirmationPageTitle",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "f150b34d-84fa-468c-84b9-612549da557d",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Title",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ConfirmationPageHeader",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "497ef998-f4a7-40db-8ea4-6bb6345dac0a",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Header",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ConfirmationPageContent",
+        "ColumnSize": 0,
+        "ColumnType": "richtexthtml",
+        "Enabled": true,
+        "Guid": "6d90dad3-9f50-47a9-8285-1ea153341726",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Confirmation content",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.RichTextEditor"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ConfirmationPageArticlesSection",
+        "ColumnSize": 0,
+        "ColumnType": "webpages",
+        "Enabled": true,
+        "Guid": "9f8f086c-a825-4741-b031-e29fc640d94d",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Articles Section",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.WebPageSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact",
+    "ClassName": "DancingGoat.Contact",
+    "ClassTableName": "DancingGoat_Contact",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.6452971",
+    "ClassGUID": "0d28f34b-3326-4fec-b487-5b2228983ae5",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "ContactName",
+        "ColumnSize": 50,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "d6b98f17-105e-4df5-a816-40fc27452966",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Name",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ContactStreet",
+        "ColumnSize": 50,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "47a635cd-12b2-4c10-86db-46bfacc479e1",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Street",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ContactCity",
+        "ColumnSize": 50,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "983eddc0-2975-4e3a-99bc-5118dbc2d0b3",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "City",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ContactCountry",
+        "ColumnSize": 100,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "d07ce3e2-d5a8-4961-8660-c9244e96352a",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Country",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": "USA"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ContactUSState",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "a28eb81b-823e-415a-b5d4-1c85fc1bb6c9",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "State",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.DropDownSelector"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ContactZipCode",
+        "ColumnSize": 15,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "be181174-92d0-4377-8c28-5dfc88c33946",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Zip code",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ContactPhone",
+        "ColumnSize": 30,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "8021a6ca-d9e9-4209-abf5-d17ccaddb776",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Phone",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ContactEmail",
+        "ColumnSize": 400,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "2ace5091-d12d-4414-9784-47b3bdd92e73",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Email",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contacts",
+    "ClassName": "DancingGoat.ContactsPage",
+    "ClassTableName": "DancingGoat_ContactsPage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.685592",
+    "ClassGUID": "60f497db-5c3a-4cad-8bcd-ecc7c545be28",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Email",
+    "ClassName": "DancingGoat.Email",
+    "ClassTableName": "DancingGoat_Email",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.7317354",
+    "ClassGUID": "793a00b7-b11c-40c7-be0a-93e54e99f50e",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Email",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "EmailSubject",
+        "ColumnSize": 450,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "6c9647ce-f9a3-438d-91a9-c65a5b1f2773",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "{$digitalmarketing.emails.edit.subject$}",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "EmailPreviewText",
+        "ColumnSize": 0,
+        "ColumnType": "longtext",
+        "Enabled": true,
+        "Guid": "2b59b569-d9a5-4e5c-8b7d-3ab9823628bc",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "{$digitalmarketing.emails.edit.previewtext$}",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": "{$digitalmarketing.emails.edit.previewtext.tooltip$}",
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "Content",
+        "ColumnSize": 0,
+        "ColumnType": "richtexthtml",
+        "Enabled": true,
+        "Guid": "45b46167-4936-4dfd-a2fd-d4d060b8da2a",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Content",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.RichTextEditor"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "BannerLogo",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "8cc584c3-2a5f-4c45-9267-c946f766399a",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Banner Logo",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "SocialPlatforms",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "82b7639d-e97f-4020-8926-55577729926a",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Social Platforms",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Event",
+    "ClassName": "DancingGoat.Event",
+    "ClassTableName": "DancingGoat_Event",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.7685636",
+    "ClassGUID": "1f61cca9-7551-4634-82ed-dfb4e4db8c0e",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "EventTitle",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "1fbd92f4-b509-4374-ab03-e8031fd62a75",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Title",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "EventHeroBannerImage",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "0bf8c2b0-092b-46f5-97a4-03279e7aa3be",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Hero banner image",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "EventPromoText",
+        "ColumnSize": 300,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "895485b8-fcc7-4729-a3a8-213dc002c7e8",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Promo text",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "EventDate",
+        "ColumnSize": 0,
+        "ColumnType": "datetime",
+        "Enabled": true,
+        "Guid": "a8d9d89c-089a-4581-805d-b2db474c6fa9",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Date",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "explanationtext": "Enter a date: MM/DD/YYYY"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.DateTimeInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "EventCafe",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "869e6371-44dc-4066-b31c-380a11f49fc3",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Cafe",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Grinder",
+    "ClassName": "DancingGoat.Grinder",
+    "ClassTableName": "DancingGoat_Grinder",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.7967219",
+    "ClassGUID": "fa282f6c-4f05-435e-b520-720d1a5347d8",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "GrinderManufacturer",
+        "ColumnSize": 0,
+        "ColumnType": "taxonomy",
+        "Enabled": true,
+        "Guid": "9c9aa0b2-02f5-4ece-89d7-cb860116b433",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Manufacturer",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TagSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "GrinderType",
+        "ColumnSize": 0,
+        "ColumnType": "taxonomy",
+        "Enabled": true,
+        "Guid": "e7e6e1c3-5380-4e5b-a3c0-424178693aee",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Type",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TagSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Grinder page",
+    "ClassName": "DancingGoat.GrinderPage",
+    "ClassTableName": "DancingGoat_GrinderPage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.8252663",
+    "ClassGUID": "f073253e-564e-40a2-82b7-f487e26181ef",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "RelatedItem",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "5ccf1a1f-23b2-4ea2-a4f3-c8fbb5cb9df7",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Related Item",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Home page",
+    "ClassName": "DancingGoat.HomePage",
+    "ClassTableName": "DancingGoat_HomePage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.8696145",
+    "ClassGUID": "92908e16-49f3-4576-b9c8-024461af012c",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "HomePageBanner",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "56f58ce4-fb20-4220-823b-95115e46fdb9",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Banner",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "HomePageEvent",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "9088319d-f909-4f38-93aa-e8598c78382b",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Events",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "HomePageOurStory",
+        "ColumnSize": 0,
+        "ColumnType": "longtext",
+        "Enabled": true,
+        "Guid": "63720e59-8be0-4233-b8d5-f585fd9fb044",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Our story",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "HomePageReference",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "cbb9f04b-4901-4773-b551-a17ad70ca6e6",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Reference",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "HomePageCafesFolder",
+        "ColumnSize": 0,
+        "ColumnType": "smartfolder",
+        "Enabled": true,
+        "Guid": "25173fd0-abeb-4ff8-8e65-3a11f327b88e",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Cafes Folder",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.SmartFolderSelector"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "HomePageArticlesSection",
+        "ColumnSize": 0,
+        "ColumnType": "webpages",
+        "Enabled": true,
+        "Guid": "4d18ccea-4ea6-4ec1-88e9-bdbecc8e1ff5",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Articles Section",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.WebPageSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Image",
+    "ClassName": "DancingGoat.Image",
+    "ClassTableName": "DancingGoat_Image",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.8979732",
+    "ClassGUID": "fd1947a4-e04b-441b-a76c-1ed826fb766e",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "ImageFile",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemasset",
+        "Enabled": true,
+        "Guid": "cc721195-df8f-4799-b974-5ade63036cab",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "File",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemAssetUploader"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ImageShortDescription",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "d8be3de6-d211-408b-8f29-571df861e619",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Short Description",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Landing page",
+    "ClassName": "DancingGoat.LandingPage",
+    "ClassTableName": "DancingGoat_LandingPage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.923373",
+    "ClassGUID": "ea41caaf-281d-4b7c-ae35-88313d57e339",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Navigation item",
+    "ClassName": "DancingGoat.NavigationItem",
+    "ClassTableName": "DancingGoat_NavigationItem",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.9646548",
+    "ClassGUID": "dada684e-94fc-4ead-80fd-bb72dd0e54bf",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "NavigationItemName",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "b4f8347c-1ce7-4918-914c-8918764f485b",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Name",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "NavigationItemLink",
+        "ColumnSize": 0,
+        "ColumnType": "webpages",
+        "Enabled": true,
+        "Guid": "0e40b158-c4c5-4c7d-8b77-3c86e2c84770",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Link to",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null,
+          "explanationtext": "Select a page from the content tree. Make sure that the page you\u0027ve selected has a URL address."
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.WebPageSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Privacy",
+    "ClassName": "DancingGoat.PrivacyPage",
+    "ClassTableName": "DancingGoat_PrivacyPage",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:21.9914103",
+    "ClassGUID": "b2091eb3-2f55-49a2-8241-049e01d25cb7",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Products section",
+    "ClassName": "DancingGoat.ProductsSection",
+    "ClassTableName": "DancingGoat_ProductsSection",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:22.0265255",
+    "ClassGUID": "c2d4f4f3-dbd7-481a-b5f6-df465a2a8b45",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Reference",
+    "ClassName": "DancingGoat.Reference",
+    "ClassTableName": "DancingGoat_Reference",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:22.0773286",
+    "ClassGUID": "fd221dc3-2ad9-443a-88b4-b15d52873d7f",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "ReferenceName",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "100875dd-73aa-4914-8548-565be2944283",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Name",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ReferenceDescription",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "c6c0a176-a78a-463e-ac4e-49d7dc09546e",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Author description",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ReferenceText",
+        "ColumnSize": 0,
+        "ColumnType": "longtext",
+        "Enabled": true,
+        "Guid": "aa4f813b-7262-471c-9bf9-315911fda266",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Text",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextArea"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "ReferenceImage",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "4d963477-2f6f-4ad3-ba62-b5a60a1b0353",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Image",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Social link",
+    "ClassName": "DancingGoat.SocialLink",
+    "ClassTableName": "DancingGoat_SocialLink",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:22.1115086",
+    "ClassGUID": "574194b1-fe00-42ac-bd59-0b60b11d8faa",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "SocialLinkTitle",
+        "ColumnSize": 50,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "ab15395f-90cc-454c-9002-8f9f878c3999",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Title",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": "Follow us"
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "SocialLinkUrl",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "35ab339c-a9db-4436-85c5-e70ba7273e18",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Link",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "SocialLinkIcon",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "f22347ba-d3e4-4d12-8ba1-4fa20210edf1",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Icon",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Coffee sample list",
+    "ClassName": "BizForm.DancingGoatCoffeeSampleList",
+    "ClassTableName": "Form_DancingGoat_CoffeeSampleList",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-04-04T15:01:58.0955463",
+    "ClassGUID": "f1cb53b0-6b7e-45f2-86ae-5ff3e6cb8f96",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Form",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "FirstName",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "bb1b070e-a408-47e9-87c3-e640dd8a283c",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "First name",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "LastName",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "a2def15e-ae04-4699-87e7-eb54a827e1be",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Last name",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "Email",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "52a41b77-905a-414e-8b31-bdabe1a251d8",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Email",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "Address",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "ac9ea624-b61e-4385-b5d6-90d5bb005fde",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Address",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "City",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "c5a94a2f-75ee-4ca5-a6bb-1c1f5cd32dbc",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "City",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ZIPCode",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "af9c4572-5eac-4f1a-806e-fe50bbe826d4",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "ZIP code",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "State",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "16430203-ad38-41de-a41e-7b59365111d1",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "State",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "Country",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "7c57d1b8-34b5-44ac-9113-8d1cdf810a81",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Country",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "ShippingType",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "5769316f-f019-44ce-a92f-d81d002333d4",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Shipping Type",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": "residential;Residential"
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Contact Us",
+    "ClassName": "BizForm.DancingGoatContactUs",
+    "ClassTableName": "Form_Form_2023_09_12_17_45",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:22.2395623",
+    "ClassGUID": "bb692509-e657-445b-a0c5-f51d8cd8fc87",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Form",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "UserFirstName",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "dc5fd062-5601-4ba5-a4bd-75bc722f69c2",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "First name",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": true,
+        "Column": "UserLastName",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "a4b3216b-0b12-4c36-9147-0ea02477b40b",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Last name",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "UserEmail",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "daae1fe5-f5a2-48de-b9f5-03d49dca3a6e",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Email",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "UserMessage",
+        "ColumnSize": 0,
+        "ColumnType": "longtext",
+        "Enabled": true,
+        "Guid": "8b99a7b9-5001-4e61-a502-c0e32e6e2598",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Message",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Dancing Goat subscription",
+    "ClassName": "BizForm.DancingGoatSubscription",
+    "ClassTableName": "Form_Form_2023_09_15_10_28",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:25:22.2578473",
+    "ClassGUID": "312e1b3a-2715-409c-96f6-1dd51b3f1b1c",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Form",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "Email",
+        "ColumnSize": 500,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "e6a851bb-c6dc-4479-9ae8-cebee3b4dfa8",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Want to stay up to date? Please leave us your email address",
+          "enabledmacro": null,
+          "smart": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": null
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Notification email form",
+    "ClassName": "CMS.NotificationEmailForm",
+    "ClassTableName": "CMS_NotificationEmailForm",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.5782267",
+    "ClassGUID": "8ebd26d0-7d44-452b-a761-891f75072a53",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Notification email user",
+    "ClassName": "CMS.NotificationEmailUser",
+    "ClassTableName": "CMS_NotificationEmailUser",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.5931478",
+    "ClassGUID": "45bd06a7-d836-4b80-8f65-627da74e4c8b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Allowed\u00A0child\u00A0content\u00A0type",
+    "ClassName": "CMS.AllowedChildContentType",
+    "ClassTableName": "CMS_AllowedChildContentType",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.463531",
+    "ClassGUID": "9ab4060a-9f98-4de3-953c-7903c81b665b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page scope",
+    "ClassName": "CMS.WebPageScope",
+    "ClassTableName": "CMS_WebPageScope",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.7974006",
+    "ClassGUID": "3e61ac86-ee07-47ac-83d4-9bd71ae49004",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Web page scope content type",
+    "ClassName": "CMS.WebPageScopeContentType",
+    "ClassTableName": "CMS_WebPageScopeContentType",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.8062297",
+    "ClassGUID": "2ed4ace4-c2a1-4bfa-84eb-6bc5192dda4b",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Standard Media Dimensions",
+    "ClassName": "CMS.StandardMediaDimensions",
+    "ClassTableName": "CMS_StandardMediaDimensions",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T09:28:27.6952275",
+    "ClassGUID": "a1ad4a60-2ced-4be6-b76a-7f62be7579e1",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Other",
+    "ClassContentTypeType": "",
+    "ClassWebPageHasUrl": false,
+    "Fields": null
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Folder",
+    "ClassName": "Custom.Folder",
+    "ClassTableName": "Custom_Folder",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-21T12:37:30.1385434",
+    "ClassGUID": "c1221b3b-7ecb-4de1-abb4-a775f138b9ac",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Website",
+    "ClassWebPageHasUrl": true,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "PageName",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "e5f0d47b-5c63-47ed-a79a-36dfce3260f4",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Name",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Faq",
+    "ClassName": "memberportal.Faq",
+    "ClassTableName": "Memberportal_Faq",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-26T10:33:56.1068902",
+    "ClassGUID": "c22a1d48-e2cd-4811-874a-fdcb883fe0d7",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": false,
+        "Column": "Question",
+        "ColumnSize": 200,
+        "ColumnType": "text",
+        "Enabled": true,
+        "Guid": "7dfcc497-e6d7-4089-9133-04134a88ac66",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Question",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.TextInput"
+        }
+      },
+      {
+        "AllowEmpty": false,
+        "Column": "Answer",
+        "ColumnSize": 0,
+        "ColumnType": "richtexthtml",
+        "Enabled": true,
+        "Guid": "c621d7bc-0cf1-46f4-a0a9-c4cbba7b5f7b",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Answer",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.RichTextEditor"
+        }
+      }
+    ]
+  },
+  {
+    "$type": "DataClass",
+    "ClassDisplayName": "Faq Topic",
+    "ClassName": "memberportal.FaqTopic",
+    "ClassTableName": "Memberportal_FaqTopic",
+    "ClassShowTemplateSelection": false,
+    "ClassLastModified": "2025-03-26T10:32:21.7369182",
+    "ClassGUID": "b3b3ff92-4829-49f5-b099-21df12d228af",
+    "ClassHasUnmanagedDbSchema": false,
+    "ClassType": "Content",
+    "ClassContentTypeType": "Reusable",
+    "ClassWebPageHasUrl": false,
+    "Fields": [
+      {
+        "AllowEmpty": true,
+        "Column": "Faqs",
+        "ColumnSize": 0,
+        "ColumnType": "contentitemreference",
+        "Enabled": true,
+        "Guid": "28a0c6fb-dbd3-45be-a37c-6db25a3457a0",
+        "Visible": false,
+        "Properties": {
+          "FieldCaption": "Questions",
+          "explanationtextashtml": "False",
+          "enabledmacro": null,
+          "fielddescriptionashtml": "False",
+          "visiblemacro": null,
+          "fielddescription": null,
+          "validationerrormessage": null,
+          "defaultvalue": null
+        },
+        "Settings": {
+          "ControlName": "Kentico.Administration.ContentItemSelector"
+        }
+      }
+    ]
+  }
+]

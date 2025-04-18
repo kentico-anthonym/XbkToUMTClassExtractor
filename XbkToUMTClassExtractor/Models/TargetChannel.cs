@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using UMT.Sitecore.Abstractions;
+
+namespace XbkToUMTClassExtractor.Models
+{
+    public class TargetChannel
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public List<ITargetItemElement> Elements { get; set; } = new List<ITargetItemElement>();
+    }
+}
