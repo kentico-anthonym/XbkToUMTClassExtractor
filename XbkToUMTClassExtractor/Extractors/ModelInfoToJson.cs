@@ -5,42 +5,49 @@ using Kentico.Xperience.UMT.Services.Model;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using System.Text.Json;
+using XbkToUMTClassExtractor.Helpers;
 
 namespace XbkToUMTClassExtractor.Extractors;
 
 public class ModelInfoToJson
 {
     private readonly IServiceProvider serviceProvider;
+
     public ModelInfoToJson(IServiceProvider serviceProvider)
     {
         this.serviceProvider = serviceProvider;
     }
-    public void Testing()
+
+    public async void SerializeModelInfos()
     {
-        // This method is a placeholder for testing purposes.
-        // You can implement your logic here to test the functionality of the ContentItemExtractor.
-        // https://stackoverflow.com/questions/949246/how-can-i-get-all-classes-within-a-namespace
-        // https://stackoverflow.com/questions/607178/how-enumerate-all-classes-with-custom-class-attribute
         Type[] umtModelType = GetTypesWithHelpAttribute(Assembly.GetAssembly(typeof(UmtModelAttribute))).ToArray();
-        Type[] typeList = GetTypesInNamespace(Assembly.GetAssembly(typeof(AssetFileSource)), "Kentico.Xperience.UMT.Model");
 
         var umtModelService = serviceProvider.GetService<UmtModelService>();
 
-        UmtModel[] models = umtModelType
-            .Select(t => (UmtModel)Activator.CreateInstance(t))
+        UmtModel?[] models = umtModelType
+            .Select(t => Activator.CreateInstance(t) as UmtModel) // Safely cast to UmtModel
+            .Where(instance => instance != null) // Filter out null instances
             .ToArray();
 
-
-        var converter = new UmtModelStjConverter(umtModelService.GetAll());
-
-        var serialized = JsonSerializer.Serialize(models, new JsonSerializerOptions
+        if (models.Any())
         {
-            WriteIndented = true,
-            IncludeFields = true,
-            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-            Converters = { converter }
 
-        });
+            var converter = new UmtModelStjConverter(umtModelService.GetAll());
+
+            var options = new JsonSerializerOptions
+            {
+                //DefaultBufferSize = 32000,
+                WriteIndented = true,
+                IncludeFields = true,
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                Converters = { converter }
+            };
+
+            var path = CustomPathHelper.ProjectPath ?? string.Empty;
+
+            await using FileStream createStream = File.Create(@$"{path}\ExampleJson\data.json");
+            await JsonSerializer.SerializeAsync(createStream, models, options);
+        }
     }
 
 

@@ -38,10 +38,4 @@ CMSApplication.Init();
 
 using var serviceScope = app.Services.CreateScope();
 var classExtractor = serviceScope.ServiceProvider.GetService<ModelInfoToJson>();
-classExtractor.Testing();
-
-//var classExtractor = serviceScope.ServiceProvider.GetService<DataClassExtractor>();
-//classExtractor.ExtractDataClasses();
-
-//var channelExtractor = serviceScope.ServiceProvider.GetService<ChannelExtractor>();
-//channelExtractor.ExtractChannels();
+classExtractor.SerializeModelInfos();
