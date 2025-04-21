@@ -1,0 +1,272 @@
+[
+  {
+    "$type": "AllowedChildContentType",
+    "allowedChildContentTypeParentGuid": null,
+    "allowedChildContentTypeChildGuid": null
+  },
+  {
+    "$type": "Channel",
+    "channelDisplayName": null,
+    "channelName": null,
+    "channelGUID": null,
+    "channelType": null
+  },
+  {
+    "$type": "ContentFolder",
+    "contentFolderGUID": null,
+    "contentFolderParentFolderGUID": null,
+    "contentFolderWorkspaceGUID": null,
+    "contentFolderName": null,
+    "contentFolderDisplayName": null,
+    "contentFolderTreePath": null
+  },
+  {
+    "$type": "ContentItemCommonData",
+    "contentItemCommonDataGUID": null,
+    "contentItemCommonDataContentItemGuid": null,
+    "contentItemCommonDataContentLanguageGuid": null,
+    "contentItemCommonDataVersionStatus": 0,
+    "contentItemCommonDataIsLatest": true,
+    "contentItemCommonDataVisualBuilderWidgets": null,
+    "contentItemCommonDataVisualBuilderTemplateConfiguration": null
+  },
+  {
+    "$type": "ContentItemData",
+    "contentItemDataGUID": null,
+    "contentItemDataCommonDataGuid": null,
+    "contentItemContentTypeName": null
+  },
+  {
+    "$type": "ContentItemLanguageMetadata",
+    "contentItemLanguageMetadataGUID": null,
+    "contentItemLanguageMetadataContentItemGuid": null,
+    "contentItemLanguageMetadataDisplayName": null,
+    "contentItemLanguageMetadataLatestVersionStatus": null,
+    "contentItemLanguageMetadataCreatedWhen": null,
+    "contentItemLanguageMetadataCreatedByUserGuid": null,
+    "contentItemLanguageMetadataModifiedWhen": null,
+    "contentItemLanguageMetadataModifiedByUserGuid": null,
+    "contentItemLanguageMetadataHasImageAsset": null,
+    "contentItemLanguageMetadataContentLanguageGuid": null,
+    "contentItemLanguageMetadataScheduledPublishWhen": null,
+    "contentItemLanguageMetadataScheduledUnpublishWhen": null
+  },
+  {
+    "$type": "ContentItem",
+    "contentItemGUID": null,
+    "contentItemContentFolderGUID": null,
+    "contentItemWorkspaceGUID": null,
+    "contentItemName": null,
+    "contentItemIsReusable": null,
+    "contentItemIsSecured": false,
+    "contentItemDataClassGuid": null,
+    "contentItemChannelGuid": null
+  },
+  {
+    "$type": "ContentItemReference",
+    "contentItemReferenceGUID": null,
+    "contentItemReferenceSourceCommonDataGuid": null,
+    "contentItemReferenceTargetItemGuid": null,
+    "contentItemReferenceGroupGUID": null
+  },
+  {
+    "$type": "ContentItemSimplified",
+    "contentItemGUID": null,
+    "contentItemContentFolderGUID": null,
+    "contentItemWorkspaceGUID": null,
+    "isSecured": false,
+    "contentTypeName": null,
+    "name": null,
+    "isReusable": false,
+    "channelName": null,
+    "languageData": [],
+    "pageData": null
+  },
+  {
+    "$type": "ContentLanguage",
+    "contentLanguageGUID": null,
+    "contentLanguageDisplayName": null,
+    "contentLanguageName": null,
+    "contentLanguageIsDefault": null,
+    "contentLanguageFallbackContentLanguageGuid": null,
+    "contentLanguageCultureFormat": null
+  },
+  {
+    "$type": "ContentTypeChannel",
+    "contentTypeChannelChannelGuid": null,
+    "contentTypeChannelContentTypeGuid": null
+  },
+  {
+    "$type": "DataClass",
+    "classDisplayName": null,
+    "className": null,
+    "classShortName": null,
+    "classTableName": null,
+    "classShowTemplateSelection": null,
+    "classLastModified": null,
+    "classGUID": null,
+    "classContactMapping": null,
+    "classContactOverwriteEnabled": null,
+    "classConnectionString": null,
+    "classDefaultObjectType": null,
+    "classResourceGuid": null,
+    "classCodeGenerationSettings": null,
+    "classHasUnmanagedDbSchema": null,
+    "classType": null,
+    "classContentTypeType": null,
+    "classWebPageHasUrl": null,
+    "fields": []
+  },
+  {
+    "$type": "EmailChannel",
+    "emailChannelGUID": null,
+    "emailChannelSendingDomain": null,
+    "emailChannelPrimaryContentLanguageGUID": null,
+    "emailChannelChannelGuid": null,
+    "emailChannelServiceDomain": null
+  },
+  {
+    "$type": "Media_File",
+    "dataSourcePath": null,
+    "dataSourceUrl": null,
+    "fileGUID": null,
+    "fileLibraryGuid": null,
+    "fileCreatedByUserGuid": null,
+    "fileModifiedByUserGuid": null,
+    "fileName": null,
+    "fileTitle": null,
+    "fileDescription": null,
+    "fileExtension": null,
+    "fileMimeType": null,
+    "filePath": null,
+    "fileImageWidth": null,
+    "fileImageHeight": null,
+    "fileCreatedWhen": null,
+    "fileModifiedWhen": null
+  },
+  {
+    "$type": "Media_Library",
+    "libraryName": null,
+    "libraryDisplayName": null,
+    "libraryDescription": null,
+    "libraryFolder": null,
+    "libraryGUID": null,
+    "libraryLastModified": null
+  },
+  {
+    "$type": "MemberInfo",
+    "memberName": null,
+    "memberEmail": null,
+    "memberPassword": null,
+    "memberEnabled": null,
+    "memberCreated": null,
+    "memberGUID": null,
+    "memberIsExternal": null,
+    "memberSecurityStamp": null
+  },
+  {
+    "$type": "Tag",
+    "tagName": null,
+    "tagGUID": null,
+    "tagTaxonomyGUID": null,
+    "tagParentGUID": null,
+    "tagOrder": null,
+    "tagTitle": null,
+    "tagDescription": null,
+    "tagTranslations": null
+  },
+  {
+    "$type": "Taxonomy",
+    "taxonomyName": null,
+    "taxonomyGUID": null,
+    "taxonomyTitle": null,
+    "taxonomyDescription": null,
+    "taxonomyTranslations": null
+  },
+  {
+    "$type": "UserInfo",
+    "userName": null,
+    "firstName": null,
+    "lastName": null,
+    "email": null,
+    "userPassword": null,
+    "userEnabled": null,
+    "userCreated": null,
+    "lastLogon": null,
+    "userGUID": null,
+    "userLastModified": null,
+    "userSecurityStamp": null,
+    "userPasswordLastChanged": null,
+    "userIsPendingRegistration": null,
+    "userRegistrationLinkExpiration": null,
+    "userAdministrationAccess": null,
+    "userIsExternal": null
+  },
+  {
+    "$type": "WebPageAcl",
+    "webPageAclGUID": null,
+    "webPageAclWebsiteChannelGUID": null,
+    "webPageAclWebPageItemGUID": null
+  },
+  {
+    "$type": "WebPageFormerUrlPath",
+    "webPageFormerUrlPathGUID": null,
+    "webPageFormerUrlPath": null,
+    "webPageFormerUrlPathHash": null,
+    "webPageFormerUrlPathWebPageItemGuid": null,
+    "webPageFormerUrlPathWebsiteChannelGuid": null,
+    "webPageFormerUrlPathContentLanguageGuid": null,
+    "webPageFormerUrlPathSourceWebPageItemGuid": null,
+    "webPageFormerUrlPathIsRedirect": null,
+    "webPageFormerUrlPathIsRedirectScheduled": null
+  },
+  {
+    "$type": "WebPageItem",
+    "webPageItemGUID": null,
+    "webPageItemParentGuid": null,
+    "webPageItemName": null,
+    "webPageItemTreePath": null,
+    "webPageItemWebsiteChannelGuid": null,
+    "webPageItemContentItemGuid": null,
+    "webPageItemOrder": null
+  },
+  {
+    "$type": "WebPageScopeContentType",
+    "webPageScopeContentTypeWebPageScopeGuid": null,
+    "webPageScopeContentTypeContentTypeGuid": null
+  },
+  {
+    "$type": "WebPageScope",
+    "webPageScopeGUID": null,
+    "webPageScopeWebsiteChannelGuid": null,
+    "webPageScopeWebPageItemGuid": null,
+    "webPageScopeIncludeChildren": null
+  },
+  {
+    "$type": "WebPageUrlPath",
+    "webPageUrlPathGUID": null,
+    "webPageUrlPath": null,
+    "webPageUrlPathHash": null,
+    "webPageUrlPathWebPageItemGuid": null,
+    "webPageUrlPathWebsiteChannelGuid": null,
+    "webPageUrlPathContentLanguageGuid": null,
+    "webPageUrlPathIsLatest": null,
+    "webPageUrlPathIsDraft": null
+  },
+  {
+    "$type": "WebSiteChannel",
+    "websiteChannelGUID": null,
+    "websiteChannelChannelGuid": null,
+    "websiteChannelDomain": null,
+    "websiteChannelHomePage": null,
+    "websiteChannelPrimaryContentLanguageGuid": null,
+    "websiteChannelDefaultCookieLevel": null,
+    "websiteChannelStoreFormerUrls": null
+  },
+  {
+    "$type": "Workspace",
+    "workspaceGUID": null,
+    "workspaceDisplayName": null,
+    "workspaceName": null
+  }
+]

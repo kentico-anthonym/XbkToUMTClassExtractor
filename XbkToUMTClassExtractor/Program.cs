@@ -1,6 +1,7 @@
 ﻿
 using CMS.Core;
 using CMS.DataEngine;
+using Kentico.Xperience.UMT;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -21,6 +22,7 @@ CMSApplication.PreInit(false);
 
 // Registers extractors and other services
 builder.Services.AddCoreServices();
+builder.Services.AddUniversalMigrationToolkit();
 
 // Merges Xperience services with the application's service collection
 Service.MergeDescriptors(builder.Services);
@@ -35,8 +37,5 @@ CMSApplication.Init();
 
 
 using var serviceScope = app.Services.CreateScope();
-var classExtractor = serviceScope.ServiceProvider.GetService<DataClassExtractor>();
-classExtractor.ExtractDataClasses();
-
-var channelExtractor = serviceScope.ServiceProvider.GetService<ChannelExtractor>();
-channelExtractor.ExtractChannels();
+var classExtractor = serviceScope.ServiceProvider.GetService<ModelInfoToJson>();
+classExtractor.SerializeModelInfos();
